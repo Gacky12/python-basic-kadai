@@ -1,3 +1,5 @@
 jyouhen = 10
 kahen = 20
 takasa = 5
+menseki = (jyouhen + kahen) * takasa / 2
+print("{} cm2".format(menseki))
