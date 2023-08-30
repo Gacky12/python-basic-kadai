@@ -1,6 +1,6 @@
 def calculate_total(price, tax):
   total = price + price * (tax/100)
-  print(total)
+  return total
 
 # 第一引数は商品の金額、第二引数は消費税
 calculate_total(100, 10)
