@@ -1,0 +1,19 @@
+class Human:
+  def __init__(self):
+    # 属性の定義
+    self.name = ""
+    self.age = ""
+
+  # printinfoのメソッド
+  def printinfo(self):
+    print(self.name)
+    print(self.age)
+
+Taro = Human()
+
+# Humanクラスに代入
+Taro.name = "太郎"
+Taro.age = "21"
+
+# 名前と年齢を出力
+Taro.printinfo()
