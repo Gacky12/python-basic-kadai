@@ -5,6 +5,6 @@ def calculate_total(price, tax):
   # 関数の戻り値をtotalで返す
   return total
 
-# 第一引数は商品の金額、第二引数は消費税
+# 第一引数は商品の金額（円）、第二引数は消費税（％）
 total_price = calculate_total(100, 10)
 print(f"商品の合計金額は{total_price}円です")
