@@ -1,13 +1,10 @@
 def calculate_total(price, tax):
+  # 与えられた引数priceと引数taxから消費税を加えた計算結果を変数totalに代入
   total = price + price * (tax/100)
-  # 処理結果を出力
-  print(f"{total}円")
+
+  # 関数の戻り値をtotalで返す
   return total
 
-# 商品の金額と消費税を入力
-price = input("商品の金額を入力して下さい")
-price_int = int(price)
-tax = input("消費税を入力して下さい")
-tax_int = int(tax)
 # 第一引数は商品の金額、第二引数は消費税
-calculate_total(price_int, tax_int)
+total_price = calculate_total(100, 10)
+print(f"商品の合計金額は{total_price}円です")
